@@ -10,4 +10,6 @@ async function main() {
   }
 }
 
+setInterval(()=>console.log("Here is variable", process.env.tralala), 2000)
+
 main();
